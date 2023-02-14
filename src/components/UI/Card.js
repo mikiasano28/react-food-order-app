@@ -5,3 +5,5 @@ const Card = props => {
 };
 
 export default Card;
+
+// this is wrapper compnent

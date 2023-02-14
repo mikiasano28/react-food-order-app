@@ -23,11 +23,16 @@ const Modal = (props) => {
     <Fragment>
       {PortalReactDOM.createPortal(<Backdrop />, portalElement)}
       {PortalReactDOM.createPortal(
-        <ModalOverlay>{props.children}</ModalOverlay>,
-        portalElement
-      )}
+        <ModalOverlay>{props.children}</ModalOverlay>,portalElement)}
     </Fragment>
   );
 };
 
 export default Modal;
+
+
+
+
+/*
+
+ */

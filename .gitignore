@@ -6,7 +6,8 @@
 .pnp.js
 reportWebVitals.js
 setupTest.js
-README.md
+# can not put into .gitignore, why?
+README.md  
 
 # testing
 /coverage

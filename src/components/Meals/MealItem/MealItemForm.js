@@ -21,3 +21,18 @@ const MealItemForm = (props) => {
 };
 
 export default MealItemForm;
+
+
+
+/*
+const MealItemForm = (props) => {
+  return (
+  <form>
+    <input />
+    <button>+ Add</button>
+  </form>
+  );
+}
+ */
+
+
