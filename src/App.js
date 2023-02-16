@@ -10,16 +10,16 @@ function App() {
 
   const showCartHandler = () => {
     setCartIsShown(true);
-  }
+  };
 
   const hideCartHandler = () => {
     setCartIsShown(false);
-  }
+  };
 
   return (
     <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler}/>}
-      <Header onShowCart={showCartHandler}/>
+      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
@@ -28,7 +28,6 @@ function App() {
 }
 
 export default App;
-
 
 /*
 ======= modal window -> use state. cart is visible, or cart is not visible =======
